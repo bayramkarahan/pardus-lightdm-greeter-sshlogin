@@ -1,0 +1,13 @@
+Source: pardus-lightdm-greeter-sshlogin
+Section: misc
+Priority: optional
+Maintainer: Ali Riza KESKIN <aliriza.keskin@pardus.org.tr>
+Build-Depends: debhelper (>= 10), make
+Standards-Version: 4.3.0
+Homepage: https://www.pardus.org.tr
+
+Package: pardus-lightdm-greeter-sshlogin
+Architecture: all
+Depends: pardus-lightdm-greeter, openssh-server
+Description: Pardus Greeter ssh login plugin
+ Pardus greeter ssh login plugin
