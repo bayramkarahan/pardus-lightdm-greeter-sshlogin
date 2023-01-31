@@ -2,8 +2,8 @@
 def module_init():
     if not get("enabled",True,"daemon"):
         return
+    busdir = "/var/lib/lightdm/"
     while True:
-        busdir = os.environ["HOME"]
         if os.path.exists("/{}/pardus-greeter".format(busdir)):
             os.unlink("/{}/pardus-greeter".format(busdir))
         os.mkfifo("/{}/pardus-greeter".format(busdir))
