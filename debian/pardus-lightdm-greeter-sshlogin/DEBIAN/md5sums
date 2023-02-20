@@ -1,0 +1,4 @@
+7d8edd13684e99345d91856bd634fae6  usr/bin/sshlogin
+4a4dd3598707603b3f76a2378a4504aa  usr/share/doc/pardus-lightdm-greeter-sshlogin/changelog.gz
+c1b7e01b6b2d462b7fd9b69edb2379e2  usr/share/doc/pardus-lightdm-greeter-sshlogin/copyright
+f13b189352b6a48bb4184f47f0233e3a  usr/share/pardus/pardus-lightdm-greeter/module/daemon.py
