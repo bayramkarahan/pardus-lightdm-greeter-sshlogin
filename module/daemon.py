@@ -17,7 +17,7 @@ def module_init():
                 password = line[9:]
             if line.startswith("session:"):
                 lightdm.set(session = line[8:])
-        loginwindow.o("ui_entry_username").set_text(username)
-        loginwindow.o("ui_entry_password").set_text(password)
+        #loginwindow.o("ui_entry_username").set_text(username)
+        #loginwindow.o("ui_entry_password").set_text(password)
         lightdm.set(username, password)
         lightdm.login()
